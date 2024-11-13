@@ -45,9 +45,9 @@ const despesas = [
 
 
   // ---- Resultado final
-    const despesasAltas = 
-    filtrarDespesasAltas(despesas, 100);
-    console.log(despesasAltas);
+  //  const despesasAltas = 
+  //   filtrarDespesasAltas(despesas, 100);
+  //  console.log(despesasAltas);
   // Saída esperada: [
   //   { nome: "Aluguel", valor: 1200 },
   //   { nome: "Mercado", valor: 450 },
