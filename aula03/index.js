@@ -1,5 +1,10 @@
 function saudacao(nome) {
-    console.log(`Seja bem-vindo ${nome}`)
+    return function() {
+        console.log(`Seja bem-vindo ${nome}`)
+    }
+    
 }
 
-saudacao("Leonardo")
+const mensagem = saudacao("Leonardo")
+
+mensagem()
